@@ -1,9 +1,17 @@
 {
-    "type": "sqlite",
-    "database": "./src/database/database.sqlite",
-    "migrations": ["./src/database/migrations/**.ts"],
-    "entities": ["./src/models/**.ts"],
-    "cli": {
-        "migrationsDir": "./src/database/migrations"
-    }
+  "type": "postgres",
+  "host": "ep-round-night-a553oaya.us-east-2.aws.neon.tech",
+  "port": 5432,
+  "username": "ccer_owner",
+  "password": "9bJAmzZR6hHN",
+  "database": "ccer",
+  "migrations": ["./src/database/migrations/*.ts"],
+  "entities": ["./src/models/*.ts"],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  },
+  "ssl": {
+    "require": true,
+    "rejectUnauthorized": false
+  }
 }
