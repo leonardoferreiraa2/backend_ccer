@@ -5,8 +5,8 @@
   "username": "ccer_owner",
   "password": "9bJAmzZR6hHN",
   "database": "ccer",
-  "migrations": ["./src/database/migrations/*.ts"],
-  "entities": ["./src/models/*.ts"],
+  "entities": ["./dist/models/*.js"],  
+  "migrations": ["./dist/database/migrations/*.js"], 
   "cli": {
     "migrationsDir": "./src/database/migrations"
   },
