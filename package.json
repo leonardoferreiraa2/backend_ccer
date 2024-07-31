@@ -9,7 +9,7 @@
     "typeorm-prod": "ts-node node_modules/typeorm/cli.js",
     "build": "tsc",
     "start": "ts-node src/server.ts",
-    "vercel-build": "yarn typeorm-prod migration:run && yarn start"
+    "vercel-build": "yarn typeorm-prod migration:run"
   },
   "dependencies": {
     "@types/node": "*",
