@@ -8,7 +8,7 @@
   "entities": ["./dist/models/*.js"],  
   "migrations": ["./dist/database/migrations/*.js"], 
   "cli": {
-    "migrationsDir": "./src/database/migrations"
+    "migrationsDir": "./dist/src/database/migrations"
   },
   "ssl": {
     "require": true,
