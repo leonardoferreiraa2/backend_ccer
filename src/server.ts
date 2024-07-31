@@ -16,4 +16,4 @@ app.use(router);
 app.use('/uploads', express.static(path.join(__dirname, '..', 'uploads')))
 app.use(errorHandler)
 
-app.listen(3333, () => console.log('is runing'));
+app.listen(5432, () => console.log('is runing'));
