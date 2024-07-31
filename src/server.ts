@@ -1,7 +1,7 @@
 import 'reflect-metadata';
 import express, { request } from 'express';
 import cors from 'cors';
-import "./database";
+import "./database/index.ts";
 import { router } from './routes';
 import path from 'path'
 
