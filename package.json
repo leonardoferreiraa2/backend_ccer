@@ -8,7 +8,7 @@
     "typeorm": "ts-node node_modules/typeorm/cli.js",
     "typeorm-prod": "node node_modules/typeorm/cli.js",
     "build": "tsc && cpx 'ormconfig.json' dist/",
-    "start": "node src/server.js",
+    "start": "node dist/src/server.js",
     "vercel-build": "yarn typeorm-prod migration:run"
   },
   "dependencies": {
