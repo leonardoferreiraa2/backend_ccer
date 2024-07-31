@@ -17,4 +17,5 @@ app.use(express_1.default.json());
 app.use(routes_1.router);
 app.use('/uploads', express_1.default.static(path_1.default.join(__dirname, '..', 'uploads')));
 app.use(handler_1.default);
+console.log('chegoua aqui');
 app.listen(5432, () => console.log('is runing'));
