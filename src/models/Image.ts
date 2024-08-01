@@ -1,4 +1,4 @@
-import { Column, Entity, PrimaryGeneratedColumn, ManyToOne, JoinColumn } from "typeorm";
+/* import { Column, Entity, PrimaryGeneratedColumn, ManyToOne, JoinColumn } from "typeorm";
 import { Sala } from './Sala';
 
 @Entity("images")
@@ -14,4 +14,4 @@ class Image {
     sala: Sala
 }
 
-export { Image }
+export { Image } */
