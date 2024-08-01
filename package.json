@@ -7,7 +7,7 @@
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
     "typeorm": "ts-node node_modules/typeorm/cli.js",
     "typeorm-prod": "ts-node node_modules/typeorm/cli.js",
-    "build": "tsc && cpx 'ormconfig.json' src/",
+    "build": "tsc",
     "start": "ts-node src/server.ts",
     "vercel-build": "yarn typeorm-prod migration:run"
   },
