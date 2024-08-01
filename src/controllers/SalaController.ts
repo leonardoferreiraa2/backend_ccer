@@ -1,7 +1,6 @@
 import { Request, Response } from "express";
 import { getRepository } from "typeorm";
 import { Sala } from "../models/Sala";
-import { Image } from "../models/Image";
 import SalaView from '../views/salas_view';
 
 class SalaController {
@@ -63,7 +62,6 @@ class SalaController {
         } = request.body;
     
         const salaRepository = getRepository(Sala);
-        const imageRepository = getRepository(Image);
     
         // Verifica se já existe uma sala com o mesmo título (exceto a sala que está sendo atualizada)
         const salaExistente = await salaRepository.createQueryBuilder("sala")
