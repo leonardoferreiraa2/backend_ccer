@@ -38,7 +38,7 @@ class SalaController {
                 urlAudio,
                 urlFoto,
                 urlVideo,
-                //images
+                images
             });
 
             // Salva a nova sala no banco de dados
