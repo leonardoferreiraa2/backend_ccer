@@ -1,5 +1,5 @@
 import { Column, Entity, PrimaryGeneratedColumn, OneToMany, JoinColumn } from "typeorm";
-import { Image } from './Image';
+//import { Image } from './Image';
 
 @Entity("salas")
 class Sala {
@@ -21,11 +21,11 @@ class Sala {
     @Column()
     urlVideo: string;
 
-    @OneToMany(() => Image, image => image.sala, {
+    /* @OneToMany(() => Image, image => image.sala, {
         cascade: ['insert', 'update']
     })
     @JoinColumn({ name: 'sala_id' })
-    images: Image[];
+    images: Image[]; */
 }
 
 export { Sala }
