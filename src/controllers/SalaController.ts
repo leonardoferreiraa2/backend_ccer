@@ -2,6 +2,7 @@ import { Request, Response } from "express";
 import { getRepository } from "typeorm";
 import { Sala } from "../models/Sala";
 import SalaView from '../views/salas_view';
+import "./database";
 
 class SalaController {
     static readonly totalPags: number = 10;
