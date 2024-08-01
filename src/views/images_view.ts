@@ -1,4 +1,4 @@
-import { Image } from '../models/Image';
+/* import { Image } from '../models/Image';
 
 export default {
     render(image: Image) {
@@ -11,4 +11,4 @@ export default {
     renderMany(images: Image[]) {
         return images.map(image => this.render(image))
     }
-};
+}; */
