@@ -10,7 +10,7 @@ export default {
             urlAudio: sala.urlAudio,
             urlFoto: sala.urlFoto,
             urlVideo: sala.urlVideo,
-            images: ImagesView.renderMany(sala.images)
+            //images: ImagesView.renderMany(sala.images)
         }
     },
 
